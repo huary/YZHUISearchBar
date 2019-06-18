@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C257DDD21CB6E3300459D77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C257DDC21CB6E3300459D77 /* AppDelegate.m */; };
+		1C257DE021CB6E3300459D77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C257DDF21CB6E3300459D77 /* ViewController.m */; };
+		1C257DE321CB6E3300459D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C257DE121CB6E3300459D77 /* Main.storyboard */; };
+		1C257DE521CB6E3300459D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C257DE421CB6E3300459D77 /* Assets.xcassets */; };
+		1C257DE821CB6E3300459D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C257DE621CB6E3300459D77 /* LaunchScreen.storyboard */; };
+		1C257DEB21CB6E3300459D77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C257DEA21CB6E3300459D77 /* main.m */; };
+		1C257DF621CB6EA500459D77 /* YZHUISearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C257DF321CB6EA500459D77 /* YZHUISearchBar.m */; };
+		1C257DF821CB6F1500459D77 /* search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C257DF721CB6F1500459D77 /* search_icon.png */; };
+		1C257DFF21CB6FA900459D77 /* YZHUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C257DFB21CB6FA900459D77 /* YZHUIButton.m */; };
+		1C257E0421CB6FB500459D77 /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C257E0321CB6FB500459D77 /* UIView+Geometry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C257DD821CB6E3300459D77 /* YZHUISearchBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZHUISearchBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C257DDB21CB6E3300459D77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C257DDC21CB6E3300459D77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C257DDE21CB6E3300459D77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C257DDF21CB6E3300459D77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C257DE221CB6E3300459D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C257DE421CB6E3300459D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C257DE721CB6E3300459D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C257DE921CB6E3300459D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C257DEA21CB6E3300459D77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C257DF221CB6EA500459D77 /* YZHUISearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHUISearchBar.h; sourceTree = "<group>"; };
+		1C257DF321CB6EA500459D77 /* YZHUISearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZHUISearchBar.m; sourceTree = "<group>"; };
+		1C257DF421CB6EA500459D77 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1C257DF521CB6EA500459D77 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		1C257DF721CB6F1500459D77 /* search_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_icon.png; sourceTree = "<group>"; };
+		1C257DFA21CB6FA900459D77 /* YZHUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHUIButton.h; sourceTree = "<group>"; };
+		1C257DFB21CB6FA900459D77 /* YZHUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZHUIButton.m; sourceTree = "<group>"; };
+		1C257E0221CB6FB500459D77 /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
+		1C257E0321CB6FB500459D77 /* UIView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C257DD521CB6E3300459D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C257DCF21CB6E3300459D77 = {
+			isa = PBXGroup;
+			children = (
+				1C257DDA21CB6E3300459D77 /* YZHUISearchBarDemo */,
+				1C257DD921CB6E3300459D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C257DD921CB6E3300459D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C257DD821CB6E3300459D77 /* YZHUISearchBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C257DDA21CB6E3300459D77 /* YZHUISearchBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1C257E0121CB6FB500459D77 /* UIKit */,
+				1C257DF921CB6FA900459D77 /* YZHUIButton */,
+				1C257DF721CB6F1500459D77 /* search_icon.png */,
+				1C257DF521CB6EA500459D77 /* Macro.h */,
+				1C257DF421CB6EA500459D77 /* PrefixHeader.pch */,
+				1C257DF121CB6EA500459D77 /* YZHUISearchBar */,
+				1C257DDB21CB6E3300459D77 /* AppDelegate.h */,
+				1C257DDC21CB6E3300459D77 /* AppDelegate.m */,
+				1C257DDE21CB6E3300459D77 /* ViewController.h */,
+				1C257DDF21CB6E3300459D77 /* ViewController.m */,
+				1C257DE121CB6E3300459D77 /* Main.storyboard */,
+				1C257DE421CB6E3300459D77 /* Assets.xcassets */,
+				1C257DE621CB6E3300459D77 /* LaunchScreen.storyboard */,
+				1C257DE921CB6E3300459D77 /* Info.plist */,
+				1C257DEA21CB6E3300459D77 /* main.m */,
+			);
+			path = YZHUISearchBarDemo;
+			sourceTree = "<group>";
+		};
+		1C257DF121CB6EA500459D77 /* YZHUISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				1C257DF221CB6EA500459D77 /* YZHUISearchBar.h */,
+				1C257DF321CB6EA500459D77 /* YZHUISearchBar.m */,
+			);
+			path = YZHUISearchBar;
+			sourceTree = "<group>";
+		};
+		1C257DF921CB6FA900459D77 /* YZHUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				1C257DFA21CB6FA900459D77 /* YZHUIButton.h */,
+				1C257DFB21CB6FA900459D77 /* YZHUIButton.m */,
+			);
+			path = YZHUIButton;
+			sourceTree = "<group>";
+		};
+		1C257E0121CB6FB500459D77 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1C257E0221CB6FB500459D77 /* UIView+Geometry.h */,
+				1C257E0321CB6FB500459D77 /* UIView+Geometry.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C257DD721CB6E3300459D77 /* YZHUISearchBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C257DEE21CB6E3300459D77 /* Build configuration list for PBXNativeTarget "YZHUISearchBarDemo" */;
+			buildPhases = (
+				1C257DD421CB6E3300459D77 /* Sources */,
+				1C257DD521CB6E3300459D77 /* Frameworks */,
+				1C257DD621CB6E3300459D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZHUISearchBarDemo;
+			productName = YZHUISearchBarDemo;
+			productReference = 1C257DD821CB6E3300459D77 /* YZHUISearchBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C257DD021CB6E3300459D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = yuan;
+				TargetAttributes = {
+					1C257DD721CB6E3300459D77 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C257DD321CB6E3300459D77 /* Build configuration list for PBXProject "YZHUISearchBarDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C257DCF21CB6E3300459D77;
+			productRefGroup = 1C257DD921CB6E3300459D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C257DD721CB6E3300459D77 /* YZHUISearchBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C257DD621CB6E3300459D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C257DF821CB6F1500459D77 /* search_icon.png in Resources */,
+				1C257DE821CB6E3300459D77 /* LaunchScreen.storyboard in Resources */,
+				1C257DE521CB6E3300459D77 /* Assets.xcassets in Resources */,
+				1C257DE321CB6E3300459D77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C257DD421CB6E3300459D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C257DE021CB6E3300459D77 /* ViewController.m in Sources */,
+				1C257DEB21CB6E3300459D77 /* main.m in Sources */,
+				1C257DFF21CB6FA900459D77 /* YZHUIButton.m in Sources */,
+				1C257DDD21CB6E3300459D77 /* AppDelegate.m in Sources */,
+				1C257E0421CB6FB500459D77 /* UIView+Geometry.m in Sources */,
+				1C257DF621CB6EA500459D77 /* YZHUISearchBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C257DE121CB6E3300459D77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C257DE221CB6E3300459D77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C257DE621CB6E3300459D77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C257DE721CB6E3300459D77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C257DEC21CB6E3300459D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C257DED21CB6E3300459D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C257DEF21CB6E3300459D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSXU259F8V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YZHUISearchBarDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = YZHUISearchBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.YZHUISearchBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C257DF021CB6E3300459D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSXU259F8V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YZHUISearchBarDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = YZHUISearchBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.YZHUISearchBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C257DD321CB6E3300459D77 /* Build configuration list for PBXProject "YZHUISearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C257DEC21CB6E3300459D77 /* Debug */,
+				1C257DED21CB6E3300459D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C257DEE21CB6E3300459D77 /* Build configuration list for PBXNativeTarget "YZHUISearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C257DEF21CB6E3300459D77 /* Debug */,
+				1C257DF021CB6E3300459D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C257DD021CB6E3300459D77 /* Project object */;
+}
